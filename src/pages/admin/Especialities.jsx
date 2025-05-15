@@ -34,10 +34,10 @@ const Especialities = () => {
                 <Table.Column
                     key={"especialidade_nome"}
                     dataIndex={"especialidade_nome"}
-                    title="Nome"
+                    title="NOME"
                 />
                 <Table.Column
-                    title="Ações"
+                    title="AÇÕES"
                     className="w-[100px] flex justify-center"
                     render={(_, render) => (
                         <div className="flex gap-3">
