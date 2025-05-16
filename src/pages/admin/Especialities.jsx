@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'; // Corrigido: useEffect adicionado
+import { useState, useEffect } from 'react';
 import { Button, Table, Drawer, Form, Input, message } from 'antd';
 import { EditFilled, DeleteOutlined } from '@ant-design/icons';
 import { API } from '../../services';
