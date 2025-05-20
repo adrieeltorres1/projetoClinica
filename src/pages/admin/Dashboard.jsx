@@ -10,7 +10,7 @@ export default Dashboard;
 
 // Oque pode ir em Dashboard
 
-// Visão Geral de Atendimentos: Número de consultas agendadas, realizadas e canceladas.
+// Visão Geral de Atendimentos: Número de consultas agendadas.
 
 // Satisfação dos Pacientes: Indicadores baseados em pesquisas de satisfação ou feedbacks.
 
