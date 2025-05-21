@@ -9,7 +9,7 @@ const SafePath = ({ children }) => {
     API.interceptors.response.use(function (response) {
         return response;
     }, function (error) {
-        if (error.response.status == 401) {
+        if (error.response.status == 401 || error.response.status == 500) {
             sessionStorage.clear();
             navigate("/");
         }
